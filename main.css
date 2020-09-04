@@ -1,0 +1,104 @@
+.jumbotron{
+    height: 500px;
+    background-image: url(academy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#naslov{
+  font-family: Cambria;
+  letter-spacing: 5px;
+}
+#citat{
+  font-family: Cambria;
+  color: red;
+}
+
+body{
+    background-color: #fdfdff;
+    background: linear-gradient(black, white);
+}
+#topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+#topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+#topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+#topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+  .modal-dialog{
+    align-content: center;
+  }
+
+  .modal-header{
+    background-color:   #101010;
+    text-align: center;   
+  }
+  #modaltext{
+      color: rgb(247, 245, 245);
+  }
+  #closeModal{
+      width: 4cm;
+      background-color: #101010;
+      -webkit-text-fill-color: #aaa;
+      font-size: 15px;
+      font-style: italic;
+  }
+  .modal-body{
+    background: #929191;
+}
+  .modal-body .fab{
+  float: left;
+  margin-right: 10px;
+  background: none;
+  font-size: 14px;
+}
+#move{
+margin-left: 23px;
+}
+
+.modal-ul { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.modal-ul li {padding:0px 0px 5px 0px;}
+.modal-ul li a{ color:red;}
+.modal-ul li a:hover{text-decoration:none; text-decoration: underline; }
+.modal-ul { float:left;}
+.modal-ul { padding-right:10px; }
+.modal-ul {margin:0px; list-style-type:none; padding:0px 220px;}
+.modal-ul li p { display:table; }
+.modal-ul li i { margin-top:5px;}
+.modal-ul {
+	white-space: nowrap;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  #navbar{
+    z-index:1;
+  }
+  

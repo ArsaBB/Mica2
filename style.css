@@ -1,0 +1,72 @@
+body{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(232, 235, 238);
+
+}
+/*  Icons head     */
+
+.fab {
+    color: grey;
+  }
+  .fab:hover {
+    color: rgb(0, 88, 252);
+  }
+
+  /*  Icons Features     */
+
+  .fas {
+    color: blue;
+    float: left;
+  }
+
+  #kartica:hover{
+    background:gray;
+    cursor: pointer;
+  }
+  
+
+h3{
+    color: rgb(25, 9, 245);
+}
+section{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+}
+
+
+/*  COVER!!!!     */
+#Cover{
+background-image: url("carrr.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#h1Cover{
+    font-size: 4rem;
+    color: aliceblue;
+    margin-top: 7rem;
+}
+#h4Cover{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+#View{
+    margin-bottom: 5rem;
+}
+/*  WHO WE ARE */
+
+
+#kartice2{
+    position: relative;
+    background: #bdb8b8;
+    overflow: hidden;
+    border-radius: 115px;
+    transition: 0.5s;
+}
+#kartice2:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0, 17, 253, 0.2);
+}

@@ -1,0 +1,271 @@
+.header {
+  padding: 10px 16px;
+  color: #f1f1f1;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+@media screen and (max-width: 100%) {
+  #section1, #section2, #section3, #section4, #section5, #section6  {
+    margin-left: 150px;
+  }
+}
+
+#slika {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("laptop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+  background-attachment: fixed;
+  }
+  #about{
+      padding-top: 15px;
+      font-family: Cambria;
+  }
+  #about i{
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+  }
+  #about ul{
+    list-style-type:none;
+    color: white;
+    font-size: 24px ; 
+  }
+.fa-calendar{
+    color: rgb(236, 91, 6);
+  }
+  .fa-calendar:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }
+#about .fa-home {
+    color: red;
+  }
+#about .fa-home:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+ }
+.fa-child{
+    color: rgb(255, 196, 0);
+  }
+  .fa-child:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }
+.fa-male{
+    color: rgb(12, 53, 129); 
+  }
+  .fa-male:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }
+
+  
+#Education{
+  text-align: center;
+}
+#nabrajanjeL{
+  text-align: left ;
+  font-size: 16px;
+}
+#nabrajanje{
+margin-top: 30px;
+}
+#nabrajanjeD{
+  text-align: left ;
+  font-size: 16px;
+}
+#Education ul li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 5px;
+}
+#prakse p{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 3px;
+}
+.fa-star{
+  margin: 10px;
+  font-size: 10px;
+}
+.checked {
+  color: orange;
+}
+#html5{
+  height: 75px;
+  width: 75px;
+  margin-right: 300px;
+  
+}
+.col-md-4{
+  margin-bottom: 40px;
+}
+#posle::after
+{
+   content: '';
+   background: white;
+   height: 2px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   display: block; 
+}
+
+  h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 7px;
+      font-family: Cambria;
+      color: rgb(12, 53, 129);
+      margin-bottom: 5px;
+  }
+  h3::after{
+    content: '';
+   background:white;
+   height: 2px;
+   margin-bottom: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 35%;
+  }
+
+  h2{
+      text-align: center;
+      font-size: 50px;
+      color:red;
+      letter-spacing: 10px;
+      font-family: Cambria;
+  }
+  h2::after
+{
+   content: '';
+   background:red;
+   height: 2px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   display: block; 
+}
+  h1{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color:rgb(187, 182, 182);
+    font-family: Cambria;
+  }
+
+#moja{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;  
+  }
+  
+#topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 16%;
+  }
+  #topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  
+  }
+  #topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+  #topnav a.active {
+    border-bottom: 3px solid red;
+  }
+
+ .btn-group-wrap{
+     margin: 0 auto;
+     text-align: center;
+     top:0;
+     z-index: 10;
+     padding-top: 1cm;
+ }
+ #btn{
+     background-color:#333;
+     margin-bottom: 20px;
+     margin-right: 10px;
+     width: 6cm;
+     height: 1cm;
+     font-size:20px;
+     text-decoration: none;
+     color: #aaa;
+    border-radius: 50%;
+    
+ }
+ #btn:focus{
+     outline: none;
+     border-bottom: 5px solid red;
+ }
+ #btn:hover{
+     color: red;
+ }
+
+ .modal-dialog{
+    align-content: center;
+  }
+
+  .modal-header{
+    background-color:   #101010;
+    text-align: center;   
+  }
+  #modaltext{
+      color: rgb(247, 245, 245);
+  }
+  #closeModal{
+      width: 4cm;
+      background-color: #101010;
+      -webkit-text-fill-color: #aaa;
+      font-size: 15px;
+      font-style: italic;
+  }
+  .modal-body{
+    background: #929191;
+}
+  .modal-body .fab{
+  float: left;
+  margin-right: 10px;
+  background: none;
+  font-size: 14px;
+}
+#move{
+margin-left: 23px;
+}
+
+.modal-ul { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.modal-ul li {padding:0px 0px 5px 0px;}
+.modal-ul li a{ color:red;}
+.modal-ul li a:hover{text-decoration:none; text-decoration: underline; }
+.modal-ul { float:left;}
+.modal-ul { padding-right:10px; }
+.modal-ul {margin:0px; list-style-type:none; padding:0px 220px;}
+.modal-ul li p { display:table; }
+.modal-ul li i { margin-top:5px;}
+.modal-ul {
+	white-space: nowrap;
+}
